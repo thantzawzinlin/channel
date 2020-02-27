@@ -59,6 +59,7 @@
                             <div class="col-md-6">
                                 <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
+                           
                         </div>
 
                         <div class="form-group row mb-0">
@@ -67,6 +68,9 @@
                                     {{ __('Register') }}
                                 </button>
                             </div>
+                        </div>
+                        <div class="form-group">
+                             <a href="{{ url('/login/facebook') }}" class="btn btn-facebook" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>
                         </div>
                     </form>
                 </div>
