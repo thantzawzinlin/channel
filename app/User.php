@@ -40,4 +40,7 @@ class User extends Authenticatable
     public function identities() {
    return $this->hasMany('App\SocialIdentity');
 }
+    public function discussions(){
+        return $this->hasMany('App\Discussion');
+    }
 }
